@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataExportFrameworkTest>
+  <TestInformation>
+    <Id>0</Id>
+    <Name>Sleep</Name>
+    <Description>This step will sleep for configured time.</Description>
+  </TestInformation>
+  <TestSetup>
+    <Sequence>
+      <Step command="util_sleep" ms="2000" />
+    </Sequence>
+  </TestSetup>
+  <Test>
+    <Sequence>
+      <Step command="util_sleep" ms="2000" />
+    </Sequence>
+  </Test>
+  <TestCleanup>
+    <Sequence>
+      <Step command="util_sleep" ms="2000" />
+    </Sequence>
+  </TestCleanup>
+</DataExportFrameworkTest>
